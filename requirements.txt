@@ -168,7 +168,7 @@ tornado==6.1
 tqdm==4.64.0
 traitlets==5.2.2.post1
 typing_extensions==4.2.0
-ujson==5.3.0
+ujson==5.4.0
 unicorn==1.0.3
 urllib3==1.26.9
 uvicorn==0.17.6
