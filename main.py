@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Path
+from fastapi import FastAPI, Path, Form
 from fastapi.responses import RedirectResponse
 from starlette.middleware.cors import CORSMiddleware
 from core.config import settings
@@ -20,9 +20,9 @@ if settings.BACKEND_CORS_ORIGINS:
 app.include_router(api_router, prefix=settings.API_V1_STR)
 
 
-@app.get("/")
-async def roots():
-    return RedirectResponse("https://ccoa.leandromoreno.com")
+@app.post("/hello")
+async def post_hello(username: str = Form()):
+    return {"username": username}
 
 
 @app.get("/hello/{name}")
