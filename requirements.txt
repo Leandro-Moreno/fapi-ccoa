@@ -118,7 +118,7 @@ pkginfo==1.7.1
 plotly==5.9.0
 prettytable==0.7.2
 prompt-toolkit==3.0.29
-protobuf==3.20.1
+protobuf==3.20.2
 psutil==5.9.1
 psycopg2-binary==2.9.3
 ptyprocess==0.7.0
