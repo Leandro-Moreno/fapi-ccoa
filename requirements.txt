@@ -152,7 +152,7 @@ sniffio==1.2.0
 SQLAlchemy==1.4.37
 sqlparse==0.4.2
 stack-data==0.2.0
-starlette==0.19.1
+starlette==0.25.0
 statsmodels==0.13.2
 tenacity==8.0.1
 tensorboard==2.9.0
